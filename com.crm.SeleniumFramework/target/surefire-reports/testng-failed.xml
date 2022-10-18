@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.crm.product.CreateAndDeleteProductTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AT"/>
+          <include name="createAndDeleteProductTest"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="AM"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- com.crm.product.CreateAndDeleteProductTest -->
+      <class name="com.crm.campaign.CreateCampaignWithProductTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AT"/>
+          <include name="createCampaignWithProductTest"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="AM"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- com.crm.campaign.CreateCampaignWithProductTest -->
+      <class name="com.crm.product.CreateProductTest">
+        <methods>
+          <include name="createProductTest"/>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AT"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="AM"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- com.crm.product.CreateProductTest -->
+      <class name="com.crm.campaign.CreateCampaignTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AT"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="createCampaignTest"/>
+          <include name="AM"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- com.crm.campaign.CreateCampaignTest -->
+      <class name="com.crm.organization.CreateOrganizationTest">
+        <methods>
+          <include name="AS"/>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AT"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="createOrganizationTest"/>
+        </methods>
+      </class> <!-- com.crm.organization.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

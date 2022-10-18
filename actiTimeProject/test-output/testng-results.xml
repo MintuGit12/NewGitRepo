@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[open-Brouser]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[HDFC_001]]>
+    </line>
+    <line>
+      <![CDATA[Banking Project]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[close-Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-15T09:51:16 IST" name="Suite" finished-at="2022-09-15T09:51:56 IST" duration-ms="40054">
+    <groups>
+    </groups>
+    <test started-at="2022-09-15T09:51:16 IST" name="Test" finished-at="2022-09-15T09:51:56 IST" duration-ms="40054">
+      <class name="com.actitime.testscript.CreateCustomer">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CreateCustomer@50a638b5]" started-at="2022-09-15T09:51:16 IST" name="openBrowser" finished-at="2022-09-15T09:51:17 IST" duration-ms="1131" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[open-Brouser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CreateCustomer@50a638b5]" started-at="2022-09-15T09:51:17 IST" name="login" finished-at="2022-09-15T09:51:29 IST" duration-ms="12503" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testCreateCustomer()[pri:0, instance:com.actitime.testscript.CreateCustomer@50a638b5]" started-at="2022-09-15T09:51:29 IST" name="testCreateCustomer" finished-at="2022-09-15T09:51:54 IST" duration-ms="24366" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[HDFC_001]]>
+            </line>
+            <line>
+              <![CDATA[Banking Project]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CreateCustomer@50a638b5]" started-at="2022-09-15T09:51:54 IST" name="logout" finished-at="2022-09-15T09:51:56 IST" duration-ms="1953" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.actitime.testscript.CreateCustomer@50a638b5]" started-at="2022-09-15T09:51:56 IST" name="closeBrowser" finished-at="2022-09-15T09:51:56 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close-Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.actitime.testscript.CreateCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
